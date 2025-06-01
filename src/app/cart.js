@@ -9,7 +9,7 @@ export default function Cart(props) {
      
     return <div className="cart">
      
-      <h2>Handlekurv {props.title}</h2>
+      <h2>Cart</h2>
       
     {/* Vi bruker map for å loope igjennom handlekurven og vise produktene på siden */}
     {/* cart er en array som inneholder produktene i handlekurven */}
@@ -17,7 +17,7 @@ export default function Cart(props) {
     {cart.sort((a, b) => a.title?.localeCompare(b.title)).map((item) => (
       <div key={item.id}>
       
-        Navn: {item.name} pris: ${(item.price * item.quantity).toFixed(2)} antall:{" "}
+        Name: {item.name} Price: ${(item.price * item.quantity).toFixed(2)} Quantity:{" "}
         <button onClick={() => decreaseProductCount(item.id)}>-</button>{item.quantity}<button onClick={() => addProduct(item)}>+</button>
       </div>
     ))}
@@ -25,7 +25,7 @@ export default function Cart(props) {
             className={styles.primary}
             onClick={() => removeAllProduct()}
           >
-            Fjern alt
+            Remove all
           </button>}</div>
           
 

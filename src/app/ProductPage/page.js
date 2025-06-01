@@ -39,7 +39,7 @@ export default function ProductPage() {
                     pathname: '/product/' + product.id,
                 }}><div className="productCard">
                         <img className="productCardPicture" src="./dietWater.png"></img>
-                        {product.badge && 
+                        {product.badge &&
                         <div className="productBadgeContainer"><div className="productBadge"><h3 className="productBagdeText">{product.badge}</h3></div></div>
                         }<h3 className="ProductInfo">
                             {product.name}

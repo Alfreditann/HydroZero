@@ -22,7 +22,7 @@ const showMenu =() =>{
     const count = useCart((state) => state.count);
     return <div>
         <div className="Flex-container">
-        <div className="menuIcon" onClick={() => showMenu()}>ÅPNE</div>
+        <div className="menuIcon" onClick={() => showMenu()}>Menu</div>
         <div className="homeButton">
             <img className="logo" src="/Logo.png"></img>
             <div>

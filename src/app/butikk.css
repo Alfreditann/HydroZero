@@ -4,6 +4,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+a{
+  color: black;
+}
 .test{
     color: red;
 }
@@ -149,7 +152,7 @@ body{
     height: 5rem; 
     justify-content: space-between;
     border-bottom: 1px solid black;
-    padding-right: 1rem;
+    padding: 0 1rem 0 1rem;
     
 }
 .logo {
@@ -175,6 +178,7 @@ body{
     display: flex;
     gap: 2rem;
     cursor: pointer;
+    z-index: 10;
 
 }
 .homeButton {
@@ -279,6 +283,7 @@ body{
     background-color: whitesmoke;
     border: solid 0.1rem black;
     padding: 1rem 1rem 1rem 0;
+    z-index: 10;
   }
   .closeCart{
     position: absolute;
@@ -295,6 +300,7 @@ body{
     text-align: center;
     z-index: 1;
     cursor: pointer;
+    z-index: 11;
     
   }
   .cartButton{
@@ -401,5 +407,10 @@ body{
 .menuIcon{
   display: block;
 }
-
+.sortContainer{
+  flex-wrap: wrap;
+}
+.sortButtons{
+  margin-bottom: 0.5rem;
+}
   }
