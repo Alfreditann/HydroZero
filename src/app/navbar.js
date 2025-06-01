@@ -4,7 +4,6 @@ import { useCart } from "./store";
 import Script from "next/script"
 import Cart from "./cart";
 import { useState } from "react";
-import Link from "next/link";
 
 export default function Navbar() {
     const [showCart, setShowCart] = useState(false);
@@ -33,18 +32,18 @@ const showMenu =() =>{
         </div>
        
         <div id="navKnapper" className="NavKnapper">
-            <Link href="/" className="home" >
+            <a href="/" className="home" >
                 <h3 className="NavHoverKnapper" >Home</h3>
-            </Link>
-            <Link href="/ProductPage" className="home" >
+            </a>
+            <a href="/ProductPage" className="home" >
                 <h3 className="NavHoverKnapper" >Products</h3>
-            </Link>
-            <Link href="/aboutUs" className="home" >
+            </a>
+            <a href="/aboutUs" className="home" >
                 <h3 className="NavHoverKnapper">About us</h3>
-            </Link>
-            <Link href="/customersChoice" className="home" >
+            </a>
+            <a href="/customersChoice" className="home" >
                 <h3 className="NavHoverKnapper">Customers choice</h3>
-            </Link>
+            </a>
         </div>
 
         <button className="cartButton" onClick={() => setShowCart(true)}><img className="logo cartIcon" src="/Handlekurv.png"></img>{count > 0 &&<div className="cartAmount">{count}</div>}</button>
