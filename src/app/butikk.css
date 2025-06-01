@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.test{
+    color: red;
+}
+.productCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.productPageContainer{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.productPageImage{
+  width: 100%;
+}
+.productPageTitle{
+  color: #01ADE9;
+}
+.addToCartButton{
+  background-color: #01ADE9;
+  
+}
+.productPageInfo{
+  padding: 30px;
+  width: 100%;
+}
+.productCardLink {
+    text-decoration: none;
+}
+
+.productBadgeContainer {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: right;
+   
+}
+.productBadge {
+    width: fit-content;
+    float: right;
+    background-color: #01ADE9;
+    top: 10px;
+    border-radius: 15px;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    opacity: 75%;
+}
+.productBagdeText{
+    color: black;
+    padding: 0.25rem;
+}
+
+.heroImgContainer{
+    display: flex;
+    justify-content: center;
+    padding: 5% 10% 0 10%;
+}
+.heroAImgContainer{
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.aboutHero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.heroAText{
+  color: #01ADE9;
+  
+}
+.heroImg{
+   max-width: 100%;
+   height: auto;
+   border-radius: 1rem;
+}
+
+.productCard {
+    position: relative;
+    max-width: 300px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 5rem;
+    border-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.pageContainer{
+  padding: 1rem;
+}
+.productCard:visited{
+    color:black;
+}
+.productCardPicture {
+   border-top-right-radius: 40px; 
+   border-top-left-radius: 40px;  
+    width:100%;
+
+    
+    
+}
+body{
+    background-color: #B8E3F2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hydro {
+    color: #47BBE4;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.zero {
+    color: black;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+}
+.cartIcon{
+  position: relative;
+}
+.cartAmount{
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  border: solid 0.1rem black;
+  border-radius: 50%;
+  height: 1.3rem;
+  width: 1.3rem;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+}
+
+.Flex-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    height: 5rem; 
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-right: 1rem;
+    
+}
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+  .home{
+    text-decoration: none;
+    
+  }
+  .home:visited {
+    color: black;
+  }
+.HandlekurvBilde{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 12px;
+    cursor:pointer;
+}
+.NavKnapper{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+
+}
+.homeButton {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.NavHoverKnapper {
+    transition: color 0.5s ease; 
+}
+  .NavHoverKnapper:hover{
+    color: #01ADE9;
+  }
+  .ProductInfo:visited{
+    text-decoration: none;
+  }
+  .ProductInfo{ 
+    color: black;
+  padding-bottom: 0.5rem;
+}
+.link {
+    text-decoration: none;
+    color: inherit;
+  }
+  .heroTextContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5% 10%;
+  }
+  .heroTitle{
+    color: #016B99;
+  }
+  .heroP{
+    max-width: 50%;
+  }
+  .productTitle{
+    margin-top: 3rem;
+    color: #016B99;
+
+  }
+  .footerTextContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5% 10%;
+  }
+  .footerTextTitle{
+    color: #47BBE4;
+  }
+  .footerText{
+    color: black;
+    max-width: 50%;
+  }
+  .footer{
+    border-top: 1px black solid;
+  }
+  .footer-section{
+    padding: 1rem;
+  }
+  li{
+    list-style-type: none;
+  }
+  h3{
+    padding: 1rem 0 0.5rem 0;
+  }
+  .buyButton{
+    font-size: 1.5rem;
+    background-color: #47BBE4;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1rem;
+    padding: 0.3rem;
+    border-radius: 0.7rem;
+    width: 10rem;
+    margin-top: 1rem;
+  }
+
+  .productBagdeFancy {
+    background-color: #E6C200;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 0.7rem;
+    color: white;
+    border-color: #E6C200;
+    padding: 0.4rem;
+    font-weight: bold;
+    width: fit-content;
+    margin: 0.5rem 0 0.5rem 0;
+    opacity:75%;
+  }
+
+  .cart {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 30%;
+    right: 0px;
+    background-color: whitesmoke;
+    border: solid 0.1rem black;
+    padding: 1rem 1rem 1rem 0;
+  }
+  .closeCart{
+    position: absolute;
+    background-color: white;
+    border: black solid 0.1rem;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    right: 10px;
+    top: 10px;
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+    cursor: pointer;
+    
+  }
+  .cartButton{
+    background-color: #B8E3F2;
+    border: 0px;
+  }
+  .ProductsHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ProductsTitle{
+    color: #01ADE9;
+  }
+  .sortContainer{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+  }
+  .sortButtons{
+    font-size: 1.5rem;
+    background-color: #01ADE9;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1rem; 
+    padding: 0.3rem;
+    border-radius: 0.7rem;
+    width: 10rem;
+    justify-content: space-around;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .menuIcon{
+    display: none;
+  }
+  .activeButton{
+    background-color: #016B99;
+  }
+  .aboutSTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+
+.heroAText {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 0;
+  
+}
+
+.waterImage {
+  width: 60px;
+  height: auto;
+}
+.heroATextContainer{
+  padding: 0 5% 2.5% 5%;
+}
+
+  @media only screen and (max-width: 768px) {
+    .footerText{
+      max-width: 100%;
+    }
+    .heroP{
+      max-width: 100%;
+    }
+    .productCard {
+      max-width: 100%; 
+      margin-bottom: 1.5rem;
+  }
+  .heroImgContainer{
+    padding:0;
+}
+.pageContainer{
+  padding:0.5rem;
+}
+.productPageContainerMobile {
+  display: block;
+
+}
+.productPageInfo{
+  padding: 1rem;
+}
+
+.NavKnapper {
+  display: none;
+}
+.NavKnapper.responsive  {
+  display: block;
+  position:absolute;
+  flex-direction: column;
+  background-color: #47BBE4;
+  top: 5rem;
+  border-bottom-right-radius: 1rem;
+  padding-right:1rem ;
+}
+
+
+.menuIcon{
+  display: block;
+}
+
+  }
