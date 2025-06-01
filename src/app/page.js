@@ -35,7 +35,7 @@ export default function Home() {
       </div>
       <div className="heroTextContainer">
         <h2 className="heroTitle">Why We Started Hydro Zero</h2>
-        <p className="heroP">We’ve always loved water—pure, simple, and essential. But we knew it could be better. That’s why we created Hydro Zero: to make water even more refreshing, more balanced, and more beneficial. Clean hydration, reimagined for modern living.</p>
+        <p className="heroP">We&apos;ve always loved water—pure, simple, and essential. But we knew it could be better. That&apos;s why we created Hydro Zero: to make water even more refreshing, more balanced, and more beneficial. Clean hydration, reimagined for modern living.</p>
         <h2 className="productTitle">New releases </h2>
       </div>
       <main >
@@ -61,7 +61,7 @@ export default function Home() {
           ))}
           <div className ="footerTextContainer">
           <h2 className="footerTextTitle" >Our mission</h2>
-          <p className="footerText">At Diet Water, our mission is simple: to repackage ordinary water as an extraordinary product that costs more while providing the same hydration as regular water. We believe in the power of perception, marketing, and people's willingness to pay premium prices for basic necessities when they have a fancy label.</p>
+          <p className="footerText">At Diet Water, our mission is simple: to repackage ordinary water as an extraordinary product that costs more while providing the same hydration as regular water. We believe in the power of perception, marketing, and people&apos;s willingness to pay premium prices for basic necessities when they have a fancy label.</p>
           </div>
         </div>
       </main>

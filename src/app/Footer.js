@@ -12,7 +12,7 @@ export default function Footer() {
           Diet Water Street 17<br />
           Email: zero.hydro@water.diet<br />
           Phone: +47 47 00 2020<br />
-          We're always here to help you and stay hydrated—responsibly.
+          We&apos;re always here to help you and stay hydrated—responsibly.
         </p>
       </div>
     </footer>
