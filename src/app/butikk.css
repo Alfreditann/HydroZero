@@ -282,24 +282,43 @@ body{
     height: 100%;
     width: 30%;
     right: 0px;
-    background-color: whitesmoke;
+    background-color: #ddedf2;
     border: solid 0.1rem black;
     padding: 1rem 1rem 1rem 0;
     z-index: 10;
   }
   .cartInfo{
     color: #016B99;
-    padding: 0.5rem 1rem 1rem 1rem;
+    padding: 0.5rem;
+    border-top: black solid 1px;
+    max-width: 100%;
   }
   .addButtons {
     background-color: #47BBE4;  
-    color: black;                 
+    color: black; 
+    width: 2rem;
+    height: 2rem;
     border: none;               
-    border-radius: 8px;          
-    padding: 10px 20px;          
+    border-radius: 100rem;          
+    padding: 5px 10px;          
     font-size: 8px;             
     cursor: pointer;             
     display: inline-block;       /* har den på linje uten å være i midten */
+    margin: 1rem;
+    
+  }
+  .removeAll{
+    background-color: #47BBE4;  
+    color: black; 
+    width: 10rem;
+    height: 2rem;
+    border: none;               
+    border-radius: 0.5rem;          
+    padding: 5px 10px;          
+    font-size: 1rem;             
+    cursor: pointer;             
+    display: inline-block;       /* har den på linje uten å være i midten */
+    margin: 0.5rem;
   }
   
   

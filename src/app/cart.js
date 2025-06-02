@@ -9,7 +9,7 @@ export default function Cart(props) {
      
     return <div className="cart">
      
-      <h2 className="cartInfo">Cart</h2>
+      <h2>Cart</h2>
       
     {/* Vi bruker map for å loope igjennom handlekurven og vise produktene på siden */}
     {/* cart er en array som inneholder produktene i handlekurven */}
@@ -22,8 +22,9 @@ export default function Cart(props) {
       </div>
     ))}
     {cart.length > 0 && <button
-            className={styles.primary}
+            
             onClick={() => removeAllProduct()}
+            className="removeAll"
           >
             Remove all
           </button>}</div>
