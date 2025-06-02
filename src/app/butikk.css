@@ -289,8 +289,20 @@ body{
   }
   .cartInfo{
     color: #016B99;
-    padding: 0.5rem ;
+    padding: 0.5rem 1rem 1rem 1rem;
   }
+  .addButtons {
+    background-color: #47BBE4;  
+    color: black;                 
+    border: none;               
+    border-radius: 8px;          
+    padding: 10px 20px;          
+    font-size: 8px;             
+    cursor: pointer;             
+    display: inline-block;       /* har den på linje uten å være i midten */
+  }
+  
+  
   .closeCart{
     position: absolute;
     background-color: white;
