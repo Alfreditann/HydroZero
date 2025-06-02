@@ -29,6 +29,7 @@ a{
 }
 .addToCartButton{
   background-color: #01ADE9;
+  cursor: pointer;
   
 }
 .productPageInfo{
@@ -258,6 +259,7 @@ body{
     border-radius: 0.7rem;
     width: 10rem;
     margin-top: 1rem;
+    cursor: pointer;
   }
 
   .productBagdeFancy {
@@ -284,6 +286,10 @@ body{
     border: solid 0.1rem black;
     padding: 1rem 1rem 1rem 0;
     z-index: 10;
+  }
+  .cartInfo{
+    color: #016B99;
+    padding: 0.5rem ;
   }
   .closeCart{
     position: absolute;
